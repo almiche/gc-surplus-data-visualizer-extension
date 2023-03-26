@@ -1,4 +1,4 @@
-# gc-surplus-data-visualizer-extension
+# 🇨🇦 🍁 gc-surplus-data-visualizer-extension
 A chrome plugin to visualize auction data from gc-surplus. In its current it is able to render a graph based on the bid data for a specific lot.
 
 Here are two examples of the plugin working on two different lots:
