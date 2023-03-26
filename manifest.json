@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GC-SURPLUS-Bid-Visualizer",
+  "version": "0.01",
+  "description": "GC Suplus bid data visualizer",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "js": ["pinned_dependencies/chart.min.js","pinned_dependencies/jquery.js","scripts/content.js"],
+      "matches": [
+        "https://www.gcsurplus.ca/mn-eng.cfm?snc=wfsav&sc=enc-bid*"
+      ]
+    }
+  ]
+}
